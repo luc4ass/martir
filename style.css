@@ -1,0 +1,220 @@
+:root {
+    --background: #262626;
+    --gray: #ffffff;
+  }
+  *,
+  *::before
+  *::after {
+    
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+ 
+  }
+  .player {
+    width: 500px;
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+   /* box-shadow: 9px 9px 16px #212121, -9px -9px 16px #212121;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+  
+  }
+  
+  img {
+    transition: 5s;
+
+    max-width: 50%;
+    border-radius: 50%;
+
+
+
+    
+  }
+
+  /*img:hover {
+    transition: 5s;
+    max-width: 50%;
+    border-radius: 50%;
+    border: 10px solid #373737;
+    margin: 15px;
+    box-shadow: 9px 9px 16px #212121, -9px -9px 16px #212121;
+    -webkit-transform: scale(1.1);
+
+
+    
+  }*/
+
+ #logo {
+    transition: 5s;
+    max-width: 40%;
+    border-radius: 50%;
+
+
+    margin-top: 10px;
+
+
+   /* -webkit-transform: scale(1.1);*/
+    
+
+    
+  }
+  
+
+  .container {
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+  }
+  
+  
+  
+  #btn {
+    transition: 0.5s;
+
+    background: #2f2f2f;
+  
+  
+    border-radius: 60px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1,25em;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px 80px;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+
+    border: 5px solid #353535;
+    font-family: 'Rubik Mono One', sans-serif;
+
+
+    
+
+  
+    
+  }
+  #btn:hover{
+    transition: 0.5s;
+    background: #31acf9;
+    border: 5px solid #31acf9;
+
+    
+  
+  
+    border-radius: 60px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1,25em;
+    margin: 5px;
+    margin-bottom: 10px;
+
+    padding: 10px 80px;
+    text-align: center;
+    width: 150px;
+/*    box-shadow: 9px 9px 16px #f9603155, -9px -9px 16px #f9603155;*/
+box-shadow: 0 0 20px #31acf9;
+
+    text-decoration: none;
+    -webkit-transform: scale(1.04);
+  
+
+    
+  
+  
+    
+  }
+
+
+  
+
+
+  a {
+   margin: 10px;
+    color: azure;
+    font-size: 20px;
+    font-family:  sans-serif;
+    /*margin: 40px;*/
+    
+  
+  
+  }
+  
+  
+  h2 {
+    font-family: 'Aclonica', sans-serif;
+
+    color: #ffffff;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 40px;
+
+  
+
+
+  
+  }
+
+  h3 {
+    color: #ffffff;
+    font-family: 'Aclonica', sans-serif;
+
+    margin-top: 1px;
+  
+  }
+
+#bajo {
+  transition: 2s;
+    color: #ffffff;
+    font-family: 'Aclonica', sans-serif;
+
+    margin-top: 20px;
+    text-decoration: none;
+    -webkit-transform: scale(0.8);
+
+  
+  }
+  #bajo:hover {
+    color: #ffffff;
+    font-family: 'Aclonica', sans-serif;
+
+    margin-top: 20px;
+    text-decoration: none;
+    -webkit-transform: scale();
+  
+  }
+
+
+  body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #262626;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #262626;  /* creates padding around scroll thumb */
+    
+  }
+
+  
